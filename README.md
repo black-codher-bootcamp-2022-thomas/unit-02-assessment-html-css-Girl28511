@@ -1,3 +1,4 @@
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=8017182&assignment_repo_type=AssignmentRepo)
 [TODO: Replace with your Netflify status badge]
 
 # HTML and CSS Assessment
@@ -56,3 +57,9 @@ You must push all the code to this repository. It's advisable to work on your co
 1. [Cassie Evans](https://www.cassie.codes)
 1. [Fajar Siddiq](https://fajarsiddiq.com)
 1. [Lee Robinson](https://leerob.io)
+
+
+
+## Site Status Badge 
+
+
