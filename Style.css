@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+h1, h2, h3 {
+  padding: 0px 60px;
+}
+html {
+    font-family: 'PT Sans', sans-serif; 
+}
+.about-me {
+    color: black;
+    border: 4px solid lavender;
+    padding: 20px;
+    width: 50%;
+}
+
+.projects { 
+    font-style: italic;    
+}
+
+body {
+  background: white;
+}
+
+#timeline {
+    margin: 0 auto;
+    max-width: 750px;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 1fr 3px 1fr;
+    color: black;
+}
+
+#timeline_component {
+    margin: 0 20px 20px 20px;
+}
+
+.timeline-point--bottom {
+  top: initial; 
+  bottom; 0;
+  
+}
+
+.timeline_date--right {
+    text-align: right;
+}
+
+.timeline-middle {
+    position: relative;
+    background: #748a7a; 
+}
+
+.timeline-point {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 15px;
+    height: 15px;
+    background: #3e4d42; 
+    border-radius: 50%;
+}
+
+
+.timeline_component--background {
+  padding: 2.5em;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.timeline_component--bottom {
+ margin-bottom: 0;
+}
+
+
+.timeline_headline {
+  margin: 0;
+  font-size: 1.15em;
+}
+
+.timeline_paragraph {
+  line-height: 1.5;
+}
+
+.profile-img {
+    width: 600px;
+    height: 500px;
+    border: 4px solid lavender;
+    border-style: dotted;
+    text-align: center;
+}
+
+.footer-title {
+  text-decoration: underline;
+}
+
+.footer-social {
+  background: #b3af9f;
+  color: white; 
+  height: 270px;
+  position: relative;
+  width: 100%;
+  list-style-type: square;
+  padding-top: 5px;
+}
+
+.footer .footer-copyright {
+  background: #E2DFD2;
+  width: 100%;
+  color: white; 
+  height: 50px;
+  bottom: 0px; 
+  left: 0px;
+  position: absolute;
+  padding-top: 20px;
+}
+
+
+.social-icon {
+  color: black;
+  transition: color 0.2s;
+  font-size: 30px;
+}
+
+.social-icon:hover {
+  color: #626dd0;
+}
