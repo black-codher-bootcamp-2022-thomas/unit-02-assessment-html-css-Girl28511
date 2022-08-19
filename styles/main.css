@@ -1,18 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
 
-h1,
-h2,
 h3 {
   padding: 0px 60px;
 }
+
 html {
   font-family: "PT Sans", sans-serif;
 }
 
 
-#header {
+.projects {
   font-style: italic;
 }
+
 
 .about-me {
   color: black;
