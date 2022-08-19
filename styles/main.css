@@ -1,20 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   padding: 0px 60px;
 }
 html {
-    font-family: 'PT Sans', sans-serif; 
-}
-.about-me {
-    color: black;
-    border: 4px solid lavender;
-    padding: 20px;
-    width: 50%;
+  font-family: "PT Sans", sans-serif;
 }
 
-.projects { 
-    font-style: italic;    
+.about-me {
+  color: black;
+  border: 4px solid lavender;
+  padding: 20px;
+  width: 50%;
+}
+
+.projects {
+  font-style: italic;
 }
 
 body {
@@ -22,44 +25,42 @@ body {
 }
 
 #timeline {
-    margin: 0 auto;
-    max-width: 750px;
-    padding: 25px;
-    display: grid;
-    grid-template-columns: 1fr 3px 1fr;
-    color: black;
+  margin: 0 auto;
+  max-width: 750px;
+  padding: 25px;
+  display: grid;
+  grid-template-columns: 1fr 3px 1fr;
+  color: black;
 }
 
 #timeline_component {
-    margin: 0 20px 20px 20px;
+  margin: 0 20px 20px 20px;
 }
 
 .timeline-point--bottom {
-  top: initial; 
-  bottom; 0;
-  
+  top: initial;
+  bottom: 0;
 }
 
 .timeline_date--right {
-    text-align: right;
+  text-align: right;
 }
 
 .timeline-middle {
-    position: relative;
-    background: #748a7a; 
+  position: relative;
+  background: #748a7a;
 }
 
 .timeline-point {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 15px;
-    height: 15px;
-    background: #3e4d42; 
-    border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 15px;
+  height: 15px;
+  background: #3e4d42;
+  border-radius: 50%;
 }
-
 
 .timeline_component--background {
   padding: 2.5em;
@@ -69,9 +70,8 @@ body {
 }
 
 .timeline_component--bottom {
- margin-bottom: 0;
+  margin-bottom: 0;
 }
-
 
 .timeline_headline {
   margin: 0;
@@ -83,11 +83,11 @@ body {
 }
 
 .profile-img {
-    width: 600px;
-    height: 500px;
-    border: 4px solid lavender;
-    border-style: dotted;
-    text-align: center;
+  width: 600px;
+  height: 500px;
+  border: 4px solid lavender;
+  border-style: dotted;
+  text-align: center;
 }
 
 .footer-title {
@@ -96,7 +96,7 @@ body {
 
 .footer-social {
   background: #b3af9f;
-  color: white; 
+  color: white;
   height: 270px;
   position: relative;
   width: 100%;
@@ -105,16 +105,15 @@ body {
 }
 
 .footer .footer-copyright {
-  background: #E2DFD2;
+  background: #e2dfd2;
   width: 100%;
-  color: white; 
+  color: white;
   height: 50px;
-  bottom: 0px; 
+  bottom: 0px;
   left: 0px;
   position: absolute;
   padding-top: 20px;
 }
-
 
 .social-icon {
   color: black;
