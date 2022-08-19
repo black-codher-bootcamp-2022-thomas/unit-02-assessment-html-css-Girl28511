@@ -9,6 +9,11 @@ html {
   font-family: "PT Sans", sans-serif;
 }
 
+
+#header {
+  font-style: italic;
+}
+
 .about-me {
   color: black;
   border: 4px solid lavender;
